@@ -1,0 +1,30 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:expense-tracker-production:jar:1.0
+[WARNING] 'parent.relativePath' of POM com.example:expense-tracker-production:1.0 (C:\Users\sahil\Downloads\expense-tracker-production\pom.xml) points at com.example:expense-tracker-production instead of org.springframework.boot:spring-boot-starter-parent, please verify your project structure @ line 8, column 9
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ---------------< com.example:expense-tracker-production >---------------
+[INFO] Building expense-tracker-production 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ expense-tracker-production ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 3 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ expense-tracker-production ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 22 source files with javac [debug release 17] to target\classes
+[INFO] /C:/Users/sahil/Downloads/expense-tracker-production/src/main/java/com/example/expense/service/ExpenseService.java: C:\Users\sahil\Downloads\expense-tracker-production\src\main\java\com\example\expense\service\ExpenseService.java uses unchecked or unsafe operations.
+[INFO] /C:/Users/sahil/Downloads/expense-tracker-production/src/main/java/com/example/expense/service/ExpenseService.java: Recompile with -Xlint:unchecked for details.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.039 s
+[INFO] Finished at: 2026-04-05T14:23:20+05:30
+[INFO] ------------------------------------------------------------------------

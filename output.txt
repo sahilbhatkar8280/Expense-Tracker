@@ -1,0 +1,65 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:expense-tracker-production:jar:1.0
+[WARNING] 'parent.relativePath' of POM com.example:expense-tracker-production:1.0 (C:\Users\sahil\Downloads\expense-tracker-production\pom.xml) points at com.example:expense-tracker-production instead of org.springframework.boot:spring-boot-starter-parent, please verify your project structure @ line 8, column 9
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ---------------< com.example:expense-tracker-production >---------------
+[INFO] Building expense-tracker-production 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ expense-tracker-production ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 3 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ expense-tracker-production ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 16 source files with javac [debug release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/sahil/Downloads/expense-tracker-production/src/main/java/com/example/expense/service/ExpenseService.java:[34,35] cannot find symbol
+  symbol:   method getId()
+  location: class com.example.expense.model.User
+[ERROR] /C:/Users/sahil/Downloads/expense-tracker-production/src/main/java/com/example/expense/service/ExpenseService.java:[34,55] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.example.expense.model.User
+[ERROR] /C:/Users/sahil/Downloads/expense-tracker-production/src/main/java/com/example/expense/service/ExpenseService.java:[53,35] cannot find symbol
+  symbol:   method getId()
+  location: class com.example.expense.model.User
+[ERROR] /C:/Users/sahil/Downloads/expense-tracker-production/src/main/java/com/example/expense/service/ExpenseService.java:[53,55] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.example.expense.model.User
+[INFO] 4 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.268 s
+[INFO] Finished at: 2026-03-31T16:40:51+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project expense-tracker-production: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/sahil/Downloads/expense-tracker-production/src/main/java/com/example/expense/service/ExpenseService.java:[34,35] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: class com.example.expense.model.User
+[ERROR] /C:/Users/sahil/Downloads/expense-tracker-production/src/main/java/com/example/expense/service/ExpenseService.java:[34,55] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.example.expense.model.User
+[ERROR] /C:/Users/sahil/Downloads/expense-tracker-production/src/main/java/com/example/expense/service/ExpenseService.java:[53,35] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: class com.example.expense.model.User
+[ERROR] /C:/Users/sahil/Downloads/expense-tracker-production/src/main/java/com/example/expense/service/ExpenseService.java:[53,55] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.example.expense.model.User
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
